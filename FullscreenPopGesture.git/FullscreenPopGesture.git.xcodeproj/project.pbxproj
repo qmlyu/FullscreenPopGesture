@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B41C4071C44B5A400BC5417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C4061C44B5A400BC5417 /* main.m */; };
+		4B41C40A1C44B5A400BC5417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C4091C44B5A400BC5417 /* AppDelegate.m */; };
+		4B41C4121C44B5A400BC5417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B41C4111C44B5A400BC5417 /* Assets.xcassets */; };
+		4B41C4151C44B5A400BC5417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B41C4131C44B5A400BC5417 /* LaunchScreen.storyboard */; };
+		4B41C4201C44B5A400BC5417 /* FullscreenPopGesture_gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C41F1C44B5A400BC5417 /* FullscreenPopGesture_gitTests.m */; };
+		4B41C42B1C44B5A400BC5417 /* FullscreenPopGesture_gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C42A1C44B5A400BC5417 /* FullscreenPopGesture_gitUITests.m */; };
+		4B41C4401C44B61D00BC5417 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C4391C44B61D00BC5417 /* MyNavigationController.m */; };
+		4B41C4411C44B61D00BC5417 /* OneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C43B1C44B61D00BC5417 /* OneVC.m */; };
+		4B41C4421C44B61D00BC5417 /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C43D1C44B61D00BC5417 /* TwoVC.m */; };
+		4B41C4431C44B61D00BC5417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41C43F1C44B61D00BC5417 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B41C41C1C44B5A400BC5417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B41C3FA1C44B5A400BC5417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B41C4011C44B5A400BC5417;
+			remoteInfo = FullscreenPopGesture.git;
+		};
+		4B41C4271C44B5A400BC5417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B41C3FA1C44B5A400BC5417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B41C4011C44B5A400BC5417;
+			remoteInfo = FullscreenPopGesture.git;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B41C4021C44B5A400BC5417 /* FullscreenPopGesture.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenPopGesture.git.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B41C4061C44B5A400BC5417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B41C4081C44B5A400BC5417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B41C4091C44B5A400BC5417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B41C4111C44B5A400BC5417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B41C4141C44B5A400BC5417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B41C4161C44B5A400BC5417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41C41B1C44B5A400BC5417 /* FullscreenPopGesture.gitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGesture.gitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B41C41F1C44B5A400BC5417 /* FullscreenPopGesture_gitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGesture_gitTests.m; sourceTree = "<group>"; };
+		4B41C4211C44B5A400BC5417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41C4261C44B5A400BC5417 /* FullscreenPopGesture.gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGesture.gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B41C42A1C44B5A400BC5417 /* FullscreenPopGesture_gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGesture_gitUITests.m; sourceTree = "<group>"; };
+		4B41C42C1C44B5A400BC5417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41C4381C44B61D00BC5417 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		4B41C4391C44B61D00BC5417 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		4B41C43A1C44B61D00BC5417 /* OneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVC.h; sourceTree = "<group>"; };
+		4B41C43B1C44B61D00BC5417 /* OneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVC.m; sourceTree = "<group>"; };
+		4B41C43C1C44B61D00BC5417 /* TwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		4B41C43D1C44B61D00BC5417 /* TwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
+		4B41C43E1C44B61D00BC5417 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B41C43F1C44B61D00BC5417 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B41C3FF1C44B5A400BC5417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4181C44B5A400BC5417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4231C44B5A400BC5417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B41C3F91C44B5A400BC5417 = {
+			isa = PBXGroup;
+			children = (
+				4B41C4041C44B5A400BC5417 /* FullscreenPopGesture.git */,
+				4B41C41E1C44B5A400BC5417 /* FullscreenPopGesture.gitTests */,
+				4B41C4291C44B5A400BC5417 /* FullscreenPopGesture.gitUITests */,
+				4B41C4031C44B5A400BC5417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B41C4031C44B5A400BC5417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B41C4021C44B5A400BC5417 /* FullscreenPopGesture.git.app */,
+				4B41C41B1C44B5A400BC5417 /* FullscreenPopGesture.gitTests.xctest */,
+				4B41C4261C44B5A400BC5417 /* FullscreenPopGesture.gitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B41C4041C44B5A400BC5417 /* FullscreenPopGesture.git */ = {
+			isa = PBXGroup;
+			children = (
+				4B41C4081C44B5A400BC5417 /* AppDelegate.h */,
+				4B41C4091C44B5A400BC5417 /* AppDelegate.m */,
+				4B41C4111C44B5A400BC5417 /* Assets.xcassets */,
+				4B41C4131C44B5A400BC5417 /* LaunchScreen.storyboard */,
+				4B41C4161C44B5A400BC5417 /* Info.plist */,
+				4B41C4051C44B5A400BC5417 /* Supporting Files */,
+			);
+			path = FullscreenPopGesture.git;
+			sourceTree = "<group>";
+		};
+		4B41C4051C44B5A400BC5417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B41C4381C44B61D00BC5417 /* MyNavigationController.h */,
+				4B41C4391C44B61D00BC5417 /* MyNavigationController.m */,
+				4B41C43A1C44B61D00BC5417 /* OneVC.h */,
+				4B41C43B1C44B61D00BC5417 /* OneVC.m */,
+				4B41C43C1C44B61D00BC5417 /* TwoVC.h */,
+				4B41C43D1C44B61D00BC5417 /* TwoVC.m */,
+				4B41C43E1C44B61D00BC5417 /* ViewController.h */,
+				4B41C43F1C44B61D00BC5417 /* ViewController.m */,
+				4B41C4061C44B5A400BC5417 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B41C41E1C44B5A400BC5417 /* FullscreenPopGesture.gitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B41C41F1C44B5A400BC5417 /* FullscreenPopGesture_gitTests.m */,
+				4B41C4211C44B5A400BC5417 /* Info.plist */,
+			);
+			path = FullscreenPopGesture.gitTests;
+			sourceTree = "<group>";
+		};
+		4B41C4291C44B5A400BC5417 /* FullscreenPopGesture.gitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B41C42A1C44B5A400BC5417 /* FullscreenPopGesture_gitUITests.m */,
+				4B41C42C1C44B5A400BC5417 /* Info.plist */,
+			);
+			path = FullscreenPopGesture.gitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B41C4011C44B5A400BC5417 /* FullscreenPopGesture.git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B41C42F1C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.git" */;
+			buildPhases = (
+				4B41C3FE1C44B5A400BC5417 /* Sources */,
+				4B41C3FF1C44B5A400BC5417 /* Frameworks */,
+				4B41C4001C44B5A400BC5417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullscreenPopGesture.git;
+			productName = FullscreenPopGesture.git;
+			productReference = 4B41C4021C44B5A400BC5417 /* FullscreenPopGesture.git.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B41C41A1C44B5A400BC5417 /* FullscreenPopGesture.gitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B41C4321C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.gitTests" */;
+			buildPhases = (
+				4B41C4171C44B5A400BC5417 /* Sources */,
+				4B41C4181C44B5A400BC5417 /* Frameworks */,
+				4B41C4191C44B5A400BC5417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B41C41D1C44B5A400BC5417 /* PBXTargetDependency */,
+			);
+			name = FullscreenPopGesture.gitTests;
+			productName = FullscreenPopGesture.gitTests;
+			productReference = 4B41C41B1C44B5A400BC5417 /* FullscreenPopGesture.gitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B41C4251C44B5A400BC5417 /* FullscreenPopGesture.gitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B41C4351C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.gitUITests" */;
+			buildPhases = (
+				4B41C4221C44B5A400BC5417 /* Sources */,
+				4B41C4231C44B5A400BC5417 /* Frameworks */,
+				4B41C4241C44B5A400BC5417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B41C4281C44B5A400BC5417 /* PBXTargetDependency */,
+			);
+			name = FullscreenPopGesture.gitUITests;
+			productName = FullscreenPopGesture.gitUITests;
+			productReference = 4B41C4261C44B5A400BC5417 /* FullscreenPopGesture.gitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B41C3FA1C44B5A400BC5417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iMac;
+				TargetAttributes = {
+					4B41C4011C44B5A400BC5417 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 775T4A9K3Q;
+					};
+					4B41C41A1C44B5A400BC5417 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 775T4A9K3Q;
+						TestTargetID = 4B41C4011C44B5A400BC5417;
+					};
+					4B41C4251C44B5A400BC5417 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 775T4A9K3Q;
+						TestTargetID = 4B41C4011C44B5A400BC5417;
+					};
+				};
+			};
+			buildConfigurationList = 4B41C3FD1C44B5A400BC5417 /* Build configuration list for PBXProject "FullscreenPopGesture.git" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B41C3F91C44B5A400BC5417;
+			productRefGroup = 4B41C4031C44B5A400BC5417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B41C4011C44B5A400BC5417 /* FullscreenPopGesture.git */,
+				4B41C41A1C44B5A400BC5417 /* FullscreenPopGesture.gitTests */,
+				4B41C4251C44B5A400BC5417 /* FullscreenPopGesture.gitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B41C4001C44B5A400BC5417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B41C4151C44B5A400BC5417 /* LaunchScreen.storyboard in Resources */,
+				4B41C4121C44B5A400BC5417 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4191C44B5A400BC5417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4241C44B5A400BC5417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B41C3FE1C44B5A400BC5417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B41C4431C44B61D00BC5417 /* ViewController.m in Sources */,
+				4B41C4401C44B61D00BC5417 /* MyNavigationController.m in Sources */,
+				4B41C4411C44B61D00BC5417 /* OneVC.m in Sources */,
+				4B41C40A1C44B5A400BC5417 /* AppDelegate.m in Sources */,
+				4B41C4421C44B61D00BC5417 /* TwoVC.m in Sources */,
+				4B41C4071C44B5A400BC5417 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4171C44B5A400BC5417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B41C4201C44B5A400BC5417 /* FullscreenPopGesture_gitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41C4221C44B5A400BC5417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B41C42B1C44B5A400BC5417 /* FullscreenPopGesture_gitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B41C41D1C44B5A400BC5417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B41C4011C44B5A400BC5417 /* FullscreenPopGesture.git */;
+			targetProxy = 4B41C41C1C44B5A400BC5417 /* PBXContainerItemProxy */;
+		};
+		4B41C4281C44B5A400BC5417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B41C4011C44B5A400BC5417 /* FullscreenPopGesture.git */;
+			targetProxy = 4B41C4271C44B5A400BC5417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B41C4131C44B5A400BC5417 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B41C4141C44B5A400BC5417 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B41C42D1C44B5A400BC5417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B41C42E1C44B5A400BC5417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B41C4301C44B5A400BC5417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullscreenPopGesture.git/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B41C4311C44B5A400BC5417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullscreenPopGesture.git/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B41C4331C44B5A400BC5417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullscreenPopGesture.gitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-gitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenPopGesture.git.app/FullscreenPopGesture.git";
+			};
+			name = Debug;
+		};
+		4B41C4341C44B5A400BC5417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullscreenPopGesture.gitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-gitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenPopGesture.git.app/FullscreenPopGesture.git";
+			};
+			name = Release;
+		};
+		4B41C4361C44B5A400BC5417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullscreenPopGesture.gitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-gitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullscreenPopGesture.git;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4B41C4371C44B5A400BC5417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullscreenPopGesture.gitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ming.FullscreenPopGesture-gitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullscreenPopGesture.git;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B41C3FD1C44B5A400BC5417 /* Build configuration list for PBXProject "FullscreenPopGesture.git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B41C42D1C44B5A400BC5417 /* Debug */,
+				4B41C42E1C44B5A400BC5417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B41C42F1C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B41C4301C44B5A400BC5417 /* Debug */,
+				4B41C4311C44B5A400BC5417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B41C4321C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.gitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B41C4331C44B5A400BC5417 /* Debug */,
+				4B41C4341C44B5A400BC5417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B41C4351C44B5A400BC5417 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture.gitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B41C4361C44B5A400BC5417 /* Debug */,
+				4B41C4371C44B5A400BC5417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B41C3FA1C44B5A400BC5417 /* Project object */;
+}
